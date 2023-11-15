@@ -15,7 +15,7 @@ resource "okta_app_oauth" "customer_portal" {
   skip_groups = true
 }
 
-
+//Example portal OIDC app
 resource "okta_app_oauth" "example" {
   status         = "ACTIVE"
   label          = "Example Portal"
